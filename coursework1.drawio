@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2023-10-22T20:51:33.403Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="1G2GcrTkGy89dl6CMhNw" version="22.0.6" type="device">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M6yMQ8L_N27g-iimWe2N-2" value="Ask the user to enter the six skills" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="20" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M6yMQ8L_N27g-iimWe2N-26" value="Calculate the overall rate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="360" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M6yMQ8L_N27g-iimWe2N-28" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.5" y="110" as="sourcePoint" />
+            <mxPoint x="399.5" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="399.5" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M6yMQ8L_N27g-iimWe2N-29" value="Output the average salary" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="560" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R8iFi2eDkRGEHPGyl--G-2" value="If skills &amp;lt; 0 or skills &amp;gt; 5&amp;nbsp;&lt;br&gt;or skills != int&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R8iFi2eDkRGEHPGyl--G-7" value="True" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="R8iFi2eDkRGEHPGyl--G-2" target="M6yMQ8L_N27g-iimWe2N-2">
+          <mxGeometry x="-0.7143" y="-10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="210" as="sourcePoint" />
+            <mxPoint x="240" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="240" />
+              <mxPoint x="240" y="240" />
+              <mxPoint x="240" y="160" />
+              <mxPoint x="240" y="120" />
+              <mxPoint x="240" y="80" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8iFi2eDkRGEHPGyl--G-9" value="False" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R8iFi2eDkRGEHPGyl--G-2" target="M6yMQ8L_N27g-iimWe2N-26">
+          <mxGeometry x="-0.1429" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="340" as="sourcePoint" />
+            <mxPoint x="520" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8iFi2eDkRGEHPGyl--G-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="400" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
